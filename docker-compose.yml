@@ -19,7 +19,7 @@ services:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_DEFAULT_EMAIL}
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_DEFAULT_PASSWORD}
   strapi:
-    image: naskio/strapi:latest
+    image: kkornkub/strapipakorn:myfirstimagepush
     container_name: my-app-korn
     ports:
       - 1337:1337
